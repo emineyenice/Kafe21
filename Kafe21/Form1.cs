@@ -21,7 +21,7 @@ namespace Kafe21
         public Form1()
         {
             InitializeComponent();
-            VerileriOku();//OrnekVerileriYukle();
+            VerileriOku();
             MasalariYukle();
         }
 
