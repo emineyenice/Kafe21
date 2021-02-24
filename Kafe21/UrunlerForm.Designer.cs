@@ -99,6 +99,7 @@ namespace Kafe21
             this.dgvUrunler.Size = new System.Drawing.Size(535, 347);
             this.dgvUrunler.TabIndex = 4;
             this.dgvUrunler.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvUrunler_CellMouseDoubleClick);
+            this.dgvUrunler.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dgvUrunler_KeyDown);
             // 
             // Column1
             // 

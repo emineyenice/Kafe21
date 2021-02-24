@@ -22,7 +22,7 @@ namespace Kafe21.Data
         {
             return string.Format("{0} (₺ {1:n2})", UrunAd, BirimFiyat);
         }
-        public virtual ICollection<SiparisDetay> SiparisDetaylar { get; set;}
+        public virtual ICollection<SiparisDetay> SiparisDetaylar { get; set; } = new HashSet<SiparisDetay>();
     }
 
     [Table("SiparisDetaylar")]
